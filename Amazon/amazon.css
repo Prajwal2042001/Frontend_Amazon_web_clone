@@ -1,0 +1,348 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+/* ...........................................Navigation Bar............................................................. */
+.nav{
+    height: 38px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    background-color: black;
+}
+#navinside{
+    height: 38px;
+    width: 793.5px;
+    background-color: black;
+    position:fixed;
+    align-items: center;
+    display: flex;
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+.store{
+    height: 38px;
+    width: 78.4px;
+    padding: 0px 10px;
+    border: none;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.726);
+    font-weight: bold;
+}
+#tv,#try,#en{
+    color:rgba(255, 255, 255, 0.726);
+    font-size: small;
+}
+#categories{
+    width: 111.7px;
+    height: 38px;
+    padding: 0px 10px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.726);
+    font-weight: bold;
+    border: none;
+}
+#searchicon{
+    color: rgba(255, 255, 255, 0.726);
+    font-size:x-large;
+}
+#profile{
+    border-radius: 100%;
+    background-color: #375269;
+    height: 25px;
+    width:28px ;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    font-size:large;
+    color: rgba(255, 255, 255, 0.726);
+}
+.logo{
+    margin-right: 35px;
+}
+.store,#tv{
+    margin-right: 10px;
+}
+#categories{
+    margin-right: 50px;
+}
+#searchicon,#try,#en{
+    margin-right:25px ;
+}
+#ex{
+    font-size: 4.5em;
+}
+/* ............................................Content-1......................................................... */
+.content{
+    background-image:linear-gradient(to right,#000 40%,transparent 58%),url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 513.18px;
+    width: 1263.33px;
+    padding:64px 63.1667px;
+    box-sizing: border-box ;
+}
+#welcome{
+    height: 49.59px;
+    width: 568.5px;
+    color: #ffffff;
+    font-size: 44px;
+    /* margin-top: 55px; */
+}
+#cont{
+    height: 385.18px;
+    width: 568.5px;
+    padding: 0px 568.5px 0px 0px;
+    line-height: 20px;
+}
+#watch{
+    height: 57.58px;
+    width: 568.5px;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 30px;
+}
+#button{
+    height: 48px;
+    width: 568.5px;
+    padding:16px 0px 0px;
+}
+#signin{
+    height: 48px;
+    width: 280px;
+    background-color: #0d6c9d;
+    font-size: medium;
+    color: white;
+    font-weight: 60px;
+    border: none;
+    border-radius: 3px;
+}
+.divisions{
+    width: 568.5px;
+    height: 19.5px;
+    padding: 16px 0px 0px;
+}
+/* ...............................................Content-2......................................................... */
+.content2{
+    background-image:
+          linear-gradient(to left, #000 40%, transparent 58%),
+          url("https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg");
+    background-position: left top;
+    height: 480px;
+    width: 1263.33px;
+    padding:50px 63.1667px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cont2{
+    height: 288.96px;
+    width: 1137px;
+    padding:0px 0px 0px 625.344px;
+    line-height: 68px;
+}
+#movierental{
+    height: 96px;
+    width: 511.66px;
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 50px;
+}
+#early{
+    height: 27.29px;
+    width: 511.66px;
+    color: #ffffff;
+    font-size: 21px;
+}
+#rent{
+    height: 54.09px;
+    width: 280px;
+    background-color: #0d6c9d ;
+    font-size: medium;
+    color: white;
+    font-weight: 60px;
+    border: none;
+    border-radius: 3px;
+}
+/* ...........................................Content-3............................................................ */
+.content3{
+    height: 550.54px;
+    width: 1263.33px;
+    padding:10px 63.1667px;
+}
+#fav{
+    height: 530.54px;
+    width: 1137px;
+    display: flex;
+}
+#fav1{
+    height: 238.35px;
+    width: 568.5px;
+    margin:24px 0px 0px;
+    padding: 0px 56.8438px 0px 0px;
+}
+#head{
+    height: 99.19px;
+    width: 511.66px;
+    font-size: 2.6rem;
+    font-weight: 100;
+    line-height: 50px;
+    font-family:sans-serif;
+    color:black;
+}
+#para{
+    font-family: sans-serif;
+    font-size: 24px;
+    color:#000000b3;
+    line-height: 30px;
+    margin-top: 25px;
+}
+/* ................................................Image-Table.................................................... */
+.side{
+    height: 530.54px;
+    width: 568.5px;
+    display: flex;;
+}
+.image{
+    height: 126.64px;
+    width: 183.5px;
+    margin-right: 2px;
+}
+/* .............................................Content-4................................................................*/
+.content4{
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    background-position: left top;
+    height:498.13px;
+    width: 1263.33px;
+    background-size: cover;
+    padding:50px 63.1667px;
+}
+#con4{
+    height: 398.13px;
+    width: 1137px;
+    padding: 0px 0px 0px 625.344px;
+}
+#better{
+    font-size: 40px;
+    color: white;
+}
+#betterpara{
+    font-size: 21px;
+    color: white;
+}
+#get{
+    height: 54.09px;
+    width: 280px;
+    background-color: #0d6c9d;
+    color: #ffffff;
+    font-weight: 60px;
+    border: none;
+    border-radius: 3px;
+    font-size: medium;
+}
+#betterpara{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* .............................................Content-5................................................................*/
+.content5{
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg);
+    background-position: right top;
+    height: 480px;
+    width: 1263.33px;
+    background-size: cover;
+}
+#con5{
+    height: 422.83px;
+    width: 1263.33px;
+    padding:50px 63.1667px;
+}
+#family{
+    height: 322.83px;
+    width: 1137px;
+    padding: 0px 625.344px 0px 0px;
+}
+#famhead{
+    height: 48px;
+    width: 511.66px;
+    color: #ffffff;
+    font-size: 40px;
+}
+#fampara{
+    height: 109.17px;
+    width: 511.66px;
+    font-size: 21px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#started{
+    width: 280px;
+    height: 54.09px;
+    background-color: #0d6c9d;
+    color: #ffffff;
+    font-weight: 60px;
+    border: none;
+    border-radius: 3px;
+    font-size: medium;
+}
+/* ..................................................Footer......................................................... */
+footer{
+    width: 1263.33px;
+    height: 119px;
+}
+.footer{
+    height: 119px;
+    width: 1263.33px;
+    padding: 24px;
+    background-color: #222222;
+}
+#last{
+    height: 19px;
+    width: 820.93px;
+    display: flex;
+}
+#logo{
+    align-items: center;
+    padding-left: 415px;
+    padding-right: 415px;
+
+}
+#img{
+    margin-left: 130px;
+}
+#s1,#s2{
+    margin-right: 17px;
+    color:#0f79af;
+}
+#s3{
+    color:#0f79af;
+}
+#s4{
+    margin-left:30px ;
+    color: #949494;
+}
+/* ............................................................................................................. */
+.content3 img:hover{
+    box-shadow: 6px 6px 20px black;
+}
+#navinside > :hover{
+    background-color:#222222;
+    max-width: max-content;
+
+}
+#tv,#try,#en,#searchicon{
+    height:38px;
+    display: flex;
+    align-items: center;
+    padding:2px;
+}
+button,.image:hover{
+    cursor: pointer;
+}
